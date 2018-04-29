@@ -1,0 +1,154 @@
+body {
+  font-family: Helvetica;
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: black;
+  top: 0px;
+}
+
+.main {
+  position: relative;
+  top: 61px;
+}
+
+img {
+padding-top: 9px;
+padding-left: 10px;
+height: 50px;
+
+}
+
+a {
+  color: seashell;
+}
+
+.nav {
+  margin-right: 25px;
+  align-self: center;
+}
+
+.nav-btn1, .nav-btn2 {
+  padding-right: 20px;
+}
+
+.background-image {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+}
+
+.text, .text2 {
+  text-align: center;
+}
+
+.text-middle {
+  background-color: black;
+  width: 100%;
+}
+
+.text {
+height: 25px;
+margin-top: 10px;
+}
+
+.text2 {
+margin-bottom: 10px;
+}
+
+.text-middle2 {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.content-middle {
+  display: flex;
+  padding-top: 0px;
+ }
+
+.tea {
+  height: 200px;
+  width: 300px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+}
+
+.block {
+  flex-basis: 333px;
+  text-align: center;
+}
+
+#text4 {
+  margin-bottom: 20px;
+  line-height: 0.5em;
+}
+
+.image-text {
+ line-height: 0.1em;
+ padding-bottom: 0px;
+}
+
+.low-container {
+  display: flex;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 550px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.block1 {
+  width: 300px;
+  height: 270px;
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+}
+
+.bo2 {
+  margin-right: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+#bobo {
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+#locations {
+  position: absolute;
+  left: 718px;
+  top: 1515px;
+  text-align: center;
+}
+
+#copyright {
+  margin-left: 20px;
+  margin-top: 50px;
+}
