@@ -6,6 +6,13 @@ body {
   opacity: 0.9;
 }
 
+.main {
+  position: relative;
+  top: 61px;
+}
+
+/*Header with Nav*/
+
 header {
   display: flex;
   justify-content: space-between;
@@ -18,16 +25,10 @@ header {
   top: 0px;
 }
 
-.main {
-  position: relative;
-  top: 61px;
-}
-
 img {
-padding-top: 9px;
-padding-left: 10px;
-height: 50px;
-
+  padding-top: 9px;
+  padding-left: 10px;
+  height: 50px;
 }
 
 a {
@@ -43,7 +44,12 @@ a {
   padding-right: 20px;
 }
 
-.background-image {
+/*End of Footer and Nav*/
+
+
+/*Article : our mission*/
+
+.article-mission {
   display: flex;
   margin: auto;
   justify-content: center;
@@ -53,40 +59,39 @@ a {
   height: 700px;
 }
 
-.text, .text2 {
+.text-mission, .text-mission2 {
   text-align: center;
 }
 
-.text-middle {
+.text-mission-block {
   background-color: black;
   width: 100%;
 }
 
-.text {
-height: 25px;
-margin-top: 10px;
+.text-mission {
+  height: 25px;
+  margin-top: 10px;
 }
 
-.text2 {
-margin-bottom: 10px;
+.text-mission2 {
+  margin-bottom: 10px;
 }
 
-.text-middle2 {
+/*End of article : our mission*/
+
+.text-middle {
   text-align: center;
   margin-top: 70px;
 }
 
-.content-middle {
-  display: flex;
-  padding-top: 0px;
- }
-
-.tea {
-  height: 200px;
-  width: 300px;
+#text4 {
+  margin-bottom: 20px;
+  line-height: 0.5em;
 }
 
-.main-container {
+/*Flexbox Tea Month*/
+
+.flexbox-middle {
   display: flex;
   flex-wrap: wrap;
   width: 1000px;
@@ -99,20 +104,29 @@ margin-bottom: 10px;
   text-align: center;
 }
 
-#text4 {
-  margin-bottom: 20px;
-  line-height: 0.5em;
-}
-
 .image-text {
- line-height: 0.1em;
- padding-bottom: 0px;
+  line-height: 0.1em;
+  padding-bottom: 0px;
 }
 
-.low-container {
+.image {
+  display: flex;
+  padding-top: 0px;
+ }
+
+.tea {
+  height: 200px;
+  width: 300px;
+}
+
+/*End of Flexbox Tea Month*/
+
+/*Flexbox Locations*/
+
+.flexbox-low {
   display: flex;
   background-image: url("../images/img-locations-background.jpg");
-  height: 550px;
+  height: 570px;
   width: 1200px;
   margin: auto;
   margin-top: 50px;
@@ -122,33 +136,53 @@ margin-bottom: 10px;
 
 .block1 {
   width: 300px;
-  height: 270px;
+  height: 260px;
   background-color: black;
   text-align: center;
   opacity: 1;
 }
 
-.bo2 {
+.adjust {
   margin-right: 40px;
 }
+
+#locations {
+  position: relative;
+  bottom: 305px;
+}
+
+/*End of FLexbox Locations*/
 
 footer {
   text-align: center;
 }
 
-#bobo {
+#adress {
   margin-top: 8px;
   margin-bottom: 40px;
-}
-
-#locations {
-  position: absolute;
-  left: 718px;
-  top: 1515px;
-  text-align: center;
 }
 
 #copyright {
   margin-left: 20px;
   margin-top: 50px;
+}
+
+/*Linking to a specific part of the same page : hidden*/
+
+#mission {
+  position: absolute;
+  bottom: 1500px;
+  visibility: hidden;
+}
+
+#tea-month {
+  position: absolute;
+  top: 735px;
+  visibility: hidden;
+}
+
+#location {
+  position: absolute;
+  top: 1515px;
+  visibility: hidden;
 }
